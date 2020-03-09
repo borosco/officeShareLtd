@@ -31,8 +31,8 @@
     </div>
     <!-- customer booking form -->
     <div class="container">
-      <form>
-        <label for="fname">First Name</label>
+      <form name="regForm" action="" onsubmit="return bookOffice()" name="" method="POST">
+    <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -46,13 +46,11 @@
 
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
     <input type="submit" value="Submit">
-    </div>
+    <input type="reset" value="Reset" name="Reset">   
 
+    </div>
       </form>
-    
-    
      <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
 
